@@ -5,7 +5,9 @@ from datetime import datetime
 import joblib
 
 # Replace with your exact path
-model_path = r"D:\New folder\project\predication model\lead_scoring_model.pkl"
+# model_path = r"D:\New folder\project\predication model\lead_scoring_model.pkl"
+
+model_path = "lead_scoring_model.pkl"  # Relative path
 
 # Load the model
 model = joblib.load(model_path)
